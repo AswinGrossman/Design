@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+}
+
+	  body{
+		  margin-left:100px;
+		  margin-right:100px;
+		  margin-top:30px;
+		  background-color:white;
+		 }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: white;
+      padding: 20px;
+    }
+   
+    .navbar navbar-inverse{
+	  width: 50%; /* Set width to 100% */
+      min-height: 50px;
+       }
+  
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 130px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 300px) {
+      .carousel-caption {
+        display: none;
+      }
+    }
+   .navbar-inverse {
+	    min-width:50%;
+		background-color: white;
+		border-color: white;
+		margin-top:-1px;
+		margin-bottom:5px;
+		margin-left:35px;
+		margin-right:35px;
+		
+	}
+
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		color: gray;
+		background-color: white;
+		font-size:120%;
+	}
+	
+	.navbar-nav {
+		float: right;
+	}
+	.navbar-inverse .navbar-nav>.dropdown>a, .navbar-inverse .navbar-nav>.dropdown>a:focus, .navbar-inverse .navbar-nav>.dropdown>a:hover {
+    color: red;
+    background-color: white;
+    font-size:120%;
+	}
+	
+	.navbar-inverse .navbar-nav>.dropdown>a, .navbar-inverse .navbar-nav>.dropdown>a:focus, .navbar-inverse .navbar-nav>.dropdown>a:hover {
+    color: red;
+    background-color: white;
+	}
+	
+	.navbar-inverse .navbar-nav>.color>a, .navbar-inverse .navbar-nav>.color>a:focus, .navbar-inverse .navbar-nav>.color>a:hover {
+		color: white;
+		 background-color:red;
+		 text-align:center;
+		 border-radius: 25px;
+		padding: 10px;
+		width: 100px;
+		height: 40px;
+		font-size:120%;
+	}
+		
+	.navbar-inverse .navbar-nav>.gray>a, .navbar-inverse .navbar-nav>.gray>a:focus, .navbar-inverse .navbar-nav>.gray>a:hover {
+		color: gray;
+		background-color: white;
+		font-size:120%;
+	}
+	
+	.container{
+		max-width:92%;
+	}
+	.container-fluid {
+		padding-top: 10px;
+		padding-bottom: 15px;
+		margin-right: auto;
+		margin-left: auto;
+}
+.1row{
+	text-align:center;
+	font-size:115%;
+	color:gray;
+}
+.row1{
+	text-align:left;
+	text-align:justify;
+	font-size:100%;
+	color:light gray;
+}
+h1,h2,h3{
+	color:black;
+}
+.div{
+	text-align:left;
+}
+
+.container text-right{
+	text-align:right;
+}
+
+.div1{
+	text-align:left;
+	font-size:100%;
+	color:gray;
+}
+.row2{
+	text-align:left;
+}
+
+.2row{
+	color:gray;
+	font-size:90%;
+}
+.3row{
+	text-align:center;
+	}
+	
+
+.modal.fade:not(.in).left .modal-dialog {
+	-webkit-transform: translate3d(-25%, 0, 0);
+	transform: translate3d(-25%, 0, 0);
+}
+.modal.fade:not(.in).right .modal-dialog {
+	-webkit-transform: translate3d(125%, 0, 0);
+	transform: translate3d(125%, 0, 0);
+}
+.modal.fade:not(.in).bottom .modal-dialog {
+	-webkit-transform: translate3d(0, 125%, 0);
+	transform: translate3d(0, 125%, 0);
+}
+
